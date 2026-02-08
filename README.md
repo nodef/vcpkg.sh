@@ -1,3 +1,10 @@
+This package allows you to install [vcpkg](https://github.com/microsoft/vcpkg) on your system using **npm**. It is a *wrapper* around the official vcpkg installation scripts, and it *disables telemetry* by default.
+
+```bash
+npm i -g vcpkg.sh   # Install on Linux / macOS
+npm i -g vcpkg.cmd  # Install on Windows
+```
+
 <!--
 This document is a copy of the README file on the Microsoft/vcpkg-docs repository.
 
@@ -50,17 +57,6 @@ yourself](https://learn.microsoft.com/vcpkg/get_started/get-started-adding-to-re
 
 After you've gotten vcpkg installed and working, you may wish to [add
 tab completion to your terminal](https://learn.microsoft.com/vcpkg/commands/integrate#vcpkg-autocompletion).
-
-# Installation
-
-To install vcpkg, run:
-
-```bash
-npm i -g vcpkg.sh   # On Linux / macOS
-npm i -g vcpkg.cmd  # On Windows
-```
-
-This installs the vcpkg command globally using npm, with telemetry disabled by default.
 
 # Use vcpkg
 
